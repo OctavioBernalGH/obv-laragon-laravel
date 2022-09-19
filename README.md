@@ -93,3 +93,22 @@ Extraemos la nueva versión de MYSQL en la carpeta "BIN/mysql" de laragon quedan
 Y Seleccionamos la nueva versión siguiendo el mismo proceso que con PHP, "menú -> mysql -> version" y seleccionamos la versión más actualizada.
 
 ![image](https://user-images.githubusercontent.com/103035621/191035899-a9707a5f-513a-406a-b650-53957931707c.png)
+
+El siguiente proceso a actualizar será a composer, para ello accedemos a la web "https://getcomposer.org/download/" pestaña downloads:
+
+![image](https://user-images.githubusercontent.com/103035621/191037828-6b9a160c-da75-4a86-9fdf-ae914d20ff46.png)
+
+En la parte inferior de dicha pestaña aparecen las descargas manuales, seleccionamos la que permite el uso de PHP 7+.
+
+![image](https://user-images.githubusercontent.com/103035621/191038101-53cd05b4-a94c-49f4-a15b-62c3bab272bc.png)
+
+Una vez descargado lo copiamos en la carpeta de composer ubicada en "laragon/bin/composer", como podréis observar ya hay un fichero composer.phar, lo que se deberá hacer es substituirlo:
+
+![image](https://user-images.githubusercontent.com/103035621/191038529-039631db-d729-4ea2-95ff-f097dc6849a9.png)
+
+Verificamos que se haya actualizado correctamente mediante composer -v en el terminal de laragon:
+
+![image](https://user-images.githubusercontent.com/103035621/191038860-91ebf53d-27b5-4a62-80c3-1a63602963cb.png)
+
+
+
