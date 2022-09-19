@@ -25,3 +25,17 @@ Procedemos a instalar el aplicativo en el ordenador:
 Para finalizar la instalación procedemos a reiniciar el equipo para aplicar los cambios recientes:
 
 ![image](https://user-images.githubusercontent.com/103035621/191024107-cf3c6e8a-8079-43b0-85e5-e7d293f1f002.png)
+
+A continuación ejecutamos Laragon, una vez ejecutado pulsamos el botón iniciar servicios, aceptamos los permisos requieridos para poder ejecutar los servicios web y mysql:
+
+![image](https://user-images.githubusercontent.com/103035621/191025424-5c343edc-b145-4cf6-834f-787056c03802.png)
+
+A continuación se muestran los puertos pre-configurados por el aplicativo, al fin y al cabo laragon no deja de ser un servicio similar a apache:
+
+![image](https://user-images.githubusercontent.com/103035621/191025633-8d6a5803-6946-4390-ae88-76a92887490e.png)
+
+Al pulsar en "web" y teniendo todo bien instalado nos deberá aparecer la página de bienvenida del servicio de Laragon:
+
+![image](https://user-images.githubusercontent.com/103035621/191026164-a4e12baf-5f4d-45dc-80d8-ed65ef024b97.png)
+
+
