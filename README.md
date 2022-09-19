@@ -38,4 +38,28 @@ Al pulsar en "web" y teniendo todo bien instalado nos deberá aparecer la págin
 
 ![image](https://user-images.githubusercontent.com/103035621/191026164-a4e12baf-5f4d-45dc-80d8-ed65ef024b97.png)
 
+El siguiente paso será verificar que tengamos instalado PHP y Composer, para ello pulsamos en el botón "terminal" de Laragon y introducimos el comando "php -v" y "composer -v".
+
+![image](https://user-images.githubusercontent.com/103035621/191027189-f42e2118-f8a8-424b-b2af-1fc01d2d1beb.png)
+
+Para proseguir con la configuración debemos parar los servicios:
+
+![image](https://user-images.githubusercontent.com/103035621/191027500-9607014b-67ca-48b6-9f97-467c90e24a81.png)
+
+El siguiente paso será actualizar PHP, para ello se accede a su página web "https://www.php.net/downloads" y seleccionamos la opción de instaladores de Windows:
+
+![image](https://user-images.githubusercontent.com/103035621/191027989-ad57eafe-8439-4273-9e78-fc7d05408494.png)
+
+Descargamos la siguiente versión en formato zip.
+
+![image](https://user-images.githubusercontent.com/103035621/191028199-987f5eba-661c-459e-ad7c-943550209cb4.png)
+
+Una vez descargado PHP, lo extraemos en la carpeta de "laragon/bin/php", debe quedar tal que así:
+
+![image](https://user-images.githubusercontent.com/103035621/191028707-ad496f73-3273-43c9-943d-1b461f370611.png)
+
+A continuación cambiamos la versión de PHP, para ello accedemos a "menu -> PHP -> Version" y seleccionamos la nueva versión a utilizar:
+
+![image](https://user-images.githubusercontent.com/103035621/191029219-d83f58bd-12d0-4cd0-a80b-c04aa505fff0.png)
+
 
