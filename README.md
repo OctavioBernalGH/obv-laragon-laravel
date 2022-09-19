@@ -46,6 +46,12 @@ Para proseguir con la configuración debemos parar los servicios:
 
 ![image](https://user-images.githubusercontent.com/103035621/191027500-9607014b-67ca-48b6-9f97-467c90e24a81.png)
 
+Los siguientes pasos serán correspondientes a la actualización de los diferentes servicios utilizados por Laragon así como PHP, Mysql y Composer.
+
+<details>
+  
+<summary>Actualizar PHP en Laragon</summary>
+
 El siguiente paso será actualizar PHP, para ello se accede a su página web "https://www.php.net/downloads" y seleccionamos la opción de instaladores de Windows:
 
 ![image](https://user-images.githubusercontent.com/103035621/191027989-ad57eafe-8439-4273-9e78-fc7d05408494.png)
@@ -66,6 +72,12 @@ Verificamos que se haya cambiado correctamente la versión de PHP, para ello vol
 
 ![image](https://user-images.githubusercontent.com/103035621/191029960-11ed6adb-fc9d-4f2c-a8b8-00b7cc39cc76.png)
 
+</details>
+  
+<details>
+  
+<summary>Actualizar MYSQL en Laragon</summary>
+  
 Siguiente paso, actualizaremos MYSQL, para ello accedemos a su página web "https://www.mysql.com/downloads/" entrando en el apartado de descargas:
 
 ![image](https://user-images.githubusercontent.com/103035621/191034201-3f860df1-581a-4414-87d8-627f2b7a080f.png)
@@ -93,7 +105,13 @@ Extraemos la nueva versión de MYSQL en la carpeta "BIN/mysql" de laragon quedan
 Y Seleccionamos la nueva versión siguiendo el mismo proceso que con PHP, "menú -> mysql -> version" y seleccionamos la versión más actualizada.
 
 ![image](https://user-images.githubusercontent.com/103035621/191035899-a9707a5f-513a-406a-b650-53957931707c.png)
+  
+</details>
 
+<details>
+
+<summary>Actualizar Composer en Laragon</summary>
+  
 El siguiente proceso a actualizar será a composer, para ello accedemos a la web "https://getcomposer.org/download/" pestaña downloads:
 
 ![image](https://user-images.githubusercontent.com/103035621/191037828-6b9a160c-da75-4a86-9fdf-ae914d20ff46.png)
@@ -114,6 +132,10 @@ Arrancamos los servicios para verificar su funcionamiento:
 
 ![image](https://user-images.githubusercontent.com/103035621/191039656-3b5dbb60-85eb-4a08-aec3-54751ed8595b.png)
 
+</details>
+
+### Errores encontrados durante la actualización
+<hr></hr>  
 Se puede observar que al arrancar los servicios ocurre un error con mysql, al cambiar la versión es normal que suceda esto:
 
 ![image](https://user-images.githubusercontent.com/103035621/191039933-18890653-916b-4427-b35e-06ae49e26235.png)
