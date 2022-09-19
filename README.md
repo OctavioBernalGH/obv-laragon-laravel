@@ -110,5 +110,25 @@ Verificamos que se haya actualizado correctamente mediante composer -v en el ter
 
 ![image](https://user-images.githubusercontent.com/103035621/191038860-91ebf53d-27b5-4a62-80c3-1a63602963cb.png)
 
+Arrancamos los servicios para verificar su funcionamiento:
+
+![image](https://user-images.githubusercontent.com/103035621/191039656-3b5dbb60-85eb-4a08-aec3-54751ed8595b.png)
+
+Se puede observar que al arrancar los servicios ocurre un error con mysql, al cambiar la versión es normal que suceda esto:
+
+![image](https://user-images.githubusercontent.com/103035621/191039933-18890653-916b-4427-b35e-06ae49e26235.png)
+
+Para solucionar esto debemos ir a la carpeta "data" en laragon, borramos la siguiente carpeta:
+
+![image](https://user-images.githubusercontent.com/103035621/191040233-505e552f-99cc-40b7-b66c-21f22d31ac1e.png)
+
+Abrimos un terminal de laragon, accedemos a la carpeta bin del servicio mysql y ejecutamos el siguiente comando:
+
+![image](https://user-images.githubusercontent.com/103035621/191040671-1eb3ddd5-b470-4d32-844a-b9d40a3a68ee.png)
+
+Arrancamos de nuevo el servicio y aparece todo correcto:
+
+![image](https://user-images.githubusercontent.com/103035621/191040835-a746e8a5-1cb5-48b7-ac28-a279f6988640.png)
+
 
 
