@@ -62,4 +62,34 @@ A continuación cambiamos la versión de PHP, para ello accedemos a "menu -> PHP
 
 ![image](https://user-images.githubusercontent.com/103035621/191029219-d83f58bd-12d0-4cd0-a80b-c04aa505fff0.png)
 
+Verificamos que se haya cambiado correctamente la versión de PHP, para ello volvemos a realizar el mismo procedimiento, abrimos el terminal mediante Laragon, y introducimos el comando "php -v".
 
+![image](https://user-images.githubusercontent.com/103035621/191029960-11ed6adb-fc9d-4f2c-a8b8-00b7cc39cc76.png)
+
+Siguiente paso, actualizaremos MYSQL, para ello accedemos a su página web "https://www.mysql.com/downloads/" entrando en el apartado de descargas:
+
+![image](https://user-images.githubusercontent.com/103035621/191034201-3f860df1-581a-4414-87d8-627f2b7a080f.png)
+
+Seleccionamos la versión comunity GPL "gratuita" ubicada al final de la pestaña de descargas:
+
+![image](https://user-images.githubusercontent.com/103035621/191034355-e1449a56-2745-4edc-afd1-352deb072f83.png)
+
+Se redireccionará a la página de descargas en la cuál se deberá elegir la versión para windows:
+
+![image](https://user-images.githubusercontent.com/103035621/191034593-ad0a27bc-c126-4a59-a5a0-1a9f022729a3.png)
+
+Como vamos a actualizar la versión de MYSQL servidor, pulsamos en el icono de información y MYSQL server:
+
+![image](https://user-images.githubusercontent.com/103035621/191035470-ac7a60a4-451a-4981-996e-43e747fa3817.png)
+
+Seleccionamos la primera opción de todas:
+
+![image](https://user-images.githubusercontent.com/103035621/191035262-3e02b895-62e8-45ac-a669-887ce3211041.png)
+
+Extraemos la nueva versión de MYSQL en la carpeta "BIN/mysql" de laragon quedando de la siguiente forma:
+
+![image](https://user-images.githubusercontent.com/103035621/191035785-d264825b-3c9c-4dac-a1f0-0a608005d8f6.png)
+
+Y Seleccionamos la nueva versión siguiendo el mismo proceso que con PHP, "menú -> mysql -> version" y seleccionamos la versión más actualizada.
+
+![image](https://user-images.githubusercontent.com/103035621/191035899-a9707a5f-513a-406a-b650-53957931707c.png)
