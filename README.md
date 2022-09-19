@@ -152,5 +152,18 @@ Arrancamos de nuevo el servicio y aparece todo correcto:
 
 ![image](https://user-images.githubusercontent.com/103035621/191040835-a746e8a5-1cb5-48b7-ac28-a279f6988640.png)
 
+### Creando nuestro primer proyecto
 
+Para ello nos dirigimos al terminal de laragon e introducimos el comando para crear un nuevo proyecto de Laravel:
 
+![image](https://user-images.githubusercontent.com/103035621/191043912-ee0bb490-5783-4a88-b10a-525e2fb393d7.png)
+
+Una vez finalizada la creación, accedemos a la carpeta de nuestro proyecto mediante terminal, ejecutamos el comando code . para visualizar nuestro árbol de proyecto con visual studio code:
+
+![image](https://user-images.githubusercontent.com/103035621/191044351-89f2b693-7f2b-44d9-aa20-930948ce0cbc.png)
+
+A continuación paramos los servicios y los volvemos a ejecutar para refrescar las carpetas en el servidor de laragon, si abrimos la ruta "nombre-carpeta-proyecto.test" en cualquier navegador podremos visualizar la página por defecto de nuestro proyecto, quedaría tal que así:
+
+![image](https://user-images.githubusercontent.com/103035621/191045107-b1a38f5a-89a4-4fdc-b64d-0820989d9b06.png)
+
+Con esto ya hemos instalado, configurado , actualizado y creado nuestro primer proyecto Laravel-Laragon.
